@@ -9,4 +9,42 @@
     .nav-item2 {
         display: none;
     }
+
+    /* nav banner section  */
+    .banner-container{
+     flex-direction: column-reverse;
+     text-align: center;
+     width: 100%;
+     margin: 0px;
+    
+    }
+    .banner-photo img{
+        width: 50%;
+        height: 50%;
+    }
+    .banner-info h1{
+        font-size: 1.8em;
+        gap: 0px;
+    }
+    .banner-info p{
+        font-size: 1em;
+    }
+    .nav-btn{
+        /* display: none; */
+        
+    }
+    /* service section style  */
+
+    .service-child{
+      min-width: 50%;
+      min-height: 50%;
+
+    }
+    .service-container{
+      
+    }
+    .service-item1{
+        width: 20%;
+    }
+
 }

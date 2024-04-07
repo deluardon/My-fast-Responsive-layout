@@ -96,3 +96,116 @@ body{
     width: 24px;
     height: 24px;
 }
+
+
+/* service list section style */
+
+.service-child{
+margin: 0px auto;
+max-width: 1000px;
+min-width: 400px;
+}
+
+.service-container{
+    margin-top: 30px;
+   border: 2px solid tomato;
+   margin-bottom: 20px;
+   text-align: center;
+  
+}
+.alibaba{
+    width: 55.051px;
+    height: 31.065px;
+    flex-shrink: 0;
+}
+.amazon{
+    width: 84px;
+    height: 25.284px;
+    flex-shrink: 0;
+}
+.daraz{
+    width: 84px;
+    height: 26px;
+    flex-shrink: 0;
+}
+.ebay{
+    width: 99.116px;
+    height: 39.607px;
+    flex-shrink: 0;
+}
+.rakuten{
+    width: 97.059px;
+    height: 28px;
+    flex-shrink: 0;
+}
+.walmart{
+    width: 111px;
+    height: 26px;
+    flex-shrink: 0;
+}
+.target{
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+}
+
+/* collection section style  */
+
+.collection-container{
+    border: 5px solid tomato;
+    width: 1000px;
+    height: 1400px;
+    margin: 0px auto;
+  
+   
+    
+
+}
+.card{
+    padding: 20px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    row-gap: 20px;
+    gap: 10px;
+}
+.single-card{
+    padding: 10px;
+    width: 280px;
+    height: 426px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.collection-img{
+    width: 219px;
+    height: 229px;
+   object-fit: cover;
+   
+}
+.single-card p{
+    color: var(--Gray-50, #787885); 
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%; /* 20.02px */
+    letter-spacing: 0.252px;
+    text-align: left;
+}
+.single-card h1{
+    color: var(--Text-Gray-900, #18191F);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px; /* 142.857% */
+    text-align: left;
+}
+
+.seemore{
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+   text-align: right;
+
+}
