@@ -113,4 +113,9 @@
     .info-main-container{
         height: 100%;
     }
+
+    /* footer section  */
+    footer{
+     min-width: 50%;
+    }
 }

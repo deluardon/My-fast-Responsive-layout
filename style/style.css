@@ -263,3 +263,29 @@ min-width: 400px;
     flex-shrink: 0;
 }
 
+/* footer section style  */
+
+footer{
+    margin-top: 100px;
+    min-width:1200px;
+    height: 200px;
+    border: 2px solid tomato;
+    background-color: #0A0826;
+    color: #fff;
+    text-align: center;
+     
+}
+footer h1{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+footer p{
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+}
+
+
