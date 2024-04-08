@@ -2,6 +2,7 @@
 @media screen and (max-width: 400px){
     .navbar-container{
       justify-content:space-around;
+    
     }
     .nav-item1 {
         display: none;
@@ -16,6 +17,8 @@
      text-align: center;
      width: 100%;
      margin: 0px;
+     justify-content: center;
+     align-items: center;
     
     }
     .banner-photo img{
@@ -46,5 +49,49 @@
     .service-item1{
         width: 20%;
     }
+    .collection-container{
+      justify-content: center;
+    }
+    .card{
+        grid-template-columns: 1fr;
+      justify-content: center;
+      margin-left: 50px;
 
+       
+       
+       
+        
+    }
+    .single-card{
+        width: 100%;
+        padding: 0px;
+        
+    }
+    .collection-img{
+        /* width: 219px;
+        height: 229px;
+       object-fit: cover; */
+  
+       
+       
+    }
+    .single-card p{
+     
+        text-align: left;
+    }
+    .single-card h1{
+   
+        /* line-height: 40px; 142.857 */
+        text-align: left;
+    }
+
+    /* new section style                                     new section  */
+
+    .info-container{
+       width: 50%;
+        text-align: center;
+      margin-left: 4em;
+       
+    }
+    
 }
