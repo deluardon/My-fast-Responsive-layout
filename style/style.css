@@ -220,7 +220,7 @@ min-width: 400px;
     min-width: 200px;
    min-height: 100px ;
    max-height: 1200px;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     max-width: 1200px;
     margin: 0px auto;
   
@@ -266,10 +266,11 @@ min-width: 400px;
 /* footer section style  */
 
 footer{
-    margin-top: 100px;
-    min-width:1200px;
+    min-width:800px;
+    margin: 0px auto;
+    max-width: 1400px;
     height: 200px;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     background-color: #0A0826;
     color: #fff;
     text-align: center;
