@@ -89,9 +89,28 @@
 
     .info-container{
        width: 50%;
-        text-align: center;
-      margin-left: 4em;
+       margin-left:5em;
        
     }
-    
+    .info-container button{
+        margin-bottom: 10px;
+    }
+    .info-container p{
+        text-align: center;
+    }
+    .info-container h1{
+        text-align: center;
+    }
+    .info-chlid{
+        flex-direction:column-reverse;
+        
+    }
+    .info-chlid img{
+        width: 80%;
+        height: 100%;
+        margin-left: 30px;
+    }
+    .info-main-container{
+        height: 100%;
+    }
 }
